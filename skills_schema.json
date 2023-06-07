@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "fileMatch": [".skills.yml"],
+    "$ref": "#/definitions/CV-Skills",
+    "definitions": {
+        "CV-Skills": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "skill_groups": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/SkillGroup"
+                    }
+                }
+            },
+            "required": [
+                "skill_groups"
+            ],
+            "title": "CV-Skills"
+        },
+        "SkillGroup": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "skills": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Skill"
+                    }
+                }
+            },
+            "required": [
+                "name",
+                "skills"
+            ],
+            "title": "SkillGroup"
+        },
+        "Skill": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "name",
+                "value"
+            ],
+            "title": "Skill"
+        }
+    }
+}

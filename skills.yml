@@ -1,0 +1,238 @@
+# yaml-language-server: $schema=skills_schema.json
+
+skill_groups:
+- name: LNG
+  skills:
+  - name: C#
+    value: 50
+  - name: Python
+    value: 40
+  - name: JavaScript
+    value: 30
+  - name: Objective-C
+    value: 20
+- name: OS
+  skills:
+  - name: Linux
+    value: 50
+  - name: Windows
+    value: 30
+  - name: MacOS
+    value: 80
+- name: DB
+  skills:
+  - name: MongoDB
+    value: 40
+  - name: PostgreSQL
+    value: 30
+  - name: Redis
+    value: 20
+  - name: FireStore
+    value: 30
+- name: COM
+  skills:
+  - name: REST
+    value: 50
+  - name: GraphQL
+    value: 20
+  - name: TCP/UDP
+    value: 50
+  - name: SPI
+    value: 30
+  - name: MQTT
+    value: 30
+  - name: LoRa
+    value: 10
+- name: TECH
+  skills:
+  - name: Mixed Reality
+    value: 40
+  - name: Web
+    value: 50
+  - name: Drones
+    value: 30
+  - name: Messtechnik
+    value: 40
+- name: DEVOPS
+  skills:
+  - name: GIT
+    value: 50
+  - name: Travis CI
+    value: 30
+  - name: Docker
+    value: 40
+  - name: SonarQube
+    value: 30
+  - name: Selenium
+    value: 20
+
+
+
+# [
+#     {
+#         "name": "C#",
+#         "value": 50,
+#         "group": "LNG"
+#     },
+#     {
+#         "name": "Python",
+#         "value": 40,
+#         "group": "LNG"
+#     },
+#     {
+#         "name": "JavaScript",
+#         "value": 30,
+#         "group": "LNG"
+#     },
+#     {
+#         "name": "Objective-C",
+#         "value": 30,
+#         "group": "LNG"
+#     },
+#     {
+#         "name": "Rust",
+#         "value": 20,
+#         "group": "LNG"
+#     },
+
+#     {
+#         "name": "Linux",
+#         "value": 50,
+#         "group": "OS"
+#     },
+#     {
+#         "name": "Windows",
+#         "value": 40,
+#         "group": "OS"
+#     },
+#     {
+#         "name": "MacOS",
+#         "value": 30,
+#         "group": "OS"
+#     },
+#     {
+#         "name": "MongoDB",
+#         "value": 40,
+#         "group": "DB"
+#     },
+#     {
+#         "name": "PostgreSQL",
+#         "value": 30,
+#         "group": "DB"
+#     },
+#     {
+#         "name": "Redis",
+#         "value": 20,
+#         "group": "DB"
+#     },
+#     {
+#         "name": "FireStore",
+#         "value": 30,
+#         "group": "DB"
+#     },
+#     {
+#         "name": "REST",
+#         "value": 50,
+#         "group": "COM"
+#     },
+#     {
+#         "name": "GraphQL",
+#         "value": 20,
+#         "group": "COM"
+#     },
+#     {
+#         "name": "TCP/UDP",
+#         "value": 50,
+#         "group": "COM"
+#     },
+#     {
+#         "name": "SPI",
+#         "value": 30,
+#         "group": "COM"
+#     },
+#     {
+#         "name": "MQTT",
+#         "value": 30,
+#         "group": "COM"
+#     },
+#     {
+#         "name": "LoRa",
+#         "value": 10,
+#         "group": "COM"
+#     },
+#     {
+#         "name": "Mixed Reality",
+#         "value": 40,
+#         "group": "TECH"
+#     },
+#     {
+#         "name": "Web",
+#         "value": 50,
+#         "group": "TECH"
+#     },
+#     {
+#         "name": "Drones",
+#         "value": 30,
+#         "group": "TECH"
+#     },
+#     {
+#         "name": "Messtechnik",
+#         "value": 40,
+#         "group": "TECH"
+#     },
+#     {
+#         "name": "GIT",
+#         "value": 50,
+#         "group": "DEVOPS"
+#     },
+#     {
+#         "name": "Travis CI",
+#         "value": 30,
+#         "group": "DEVOPS"
+#     },
+#     {
+#         "name": "Docker",
+#         "value": 40,
+#         "group": "DEVOPS"
+#     },
+#     {
+#         "name": "SonarQube",
+#         "value": 30,
+#         "group": "DEVOPS"
+#     },
+#     {
+#         "name": "Selenium",
+#         "value": 20,
+#         "group": "DEVOPS"
+#     },
+#     {
+#         "name": "Firebase",
+#         "value": 40,
+#         "group": "CLOUD"
+#     },
+#     {
+#         "name": "Azure",
+#         "value": 20,
+#         "group": "CLOUD"
+#     },
+#     {
+#         "name": "Unity",
+#         "value": 40,
+#         "group": "ENV"
+#     },
+#     {
+#         "name": "Vue.js",
+#         "value": 40,
+#         "group": "ENV"
+#     },
+#     {
+#         "name": ".Net",
+#         "value": 30,
+#         "group": "ENV"
+#     },
+#     {
+#         "name": "Node.js",
+#         "value": 30,
+#         "group": "ENV"
+#     }
+# ]
